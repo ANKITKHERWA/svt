@@ -1,26 +1,56 @@
-@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import 'aos/dist/aos.css';
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+@import 'tailwindcss';
+
+@import 'tw-animate-css';
+
+.ff-k2d {
+  font-family: 'K2D';
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+.ff-inter {
+  font-family: 'Inter';
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+.ff-black {
+  font-family: 'Black Han Sans', sans-serif;
+  font-weight: 400;
+}
+.under {
+  text-decoration: none;
+  position: relative;
+  padding-bottom: 8px;
+}
+
+.under::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 3px;
+  background: linear-gradient(90deg, #009694 0%, #65f53d 97.01%);
+  transition: width 0.4s ease-in-out;
+}
+
+.under:hover::after {
+  width: 100%;
+}
+.bg-green-gradient {
+  background: linear-gradient(0deg, #003423 0%, rgba(0, 52, 35, 0) 82.5%);
+}
+.bg-green-gradient1 {
+  background: linear-gradient(11deg, rgba(0, 43, 24, 0) 31.36%, #01130d 68.13%);
+}
+.bg-green-gradient2 {
+  background: linear-gradient(357deg, #00251a 32.02%, rgba(0, 43, 24, 0) 89.1%);
+}
+.bg-green-gradient3 {
+  background: linear-gradient(359deg, rgba(0, 43, 24, 0) 55.9%, #003424 91.53%);
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Inter', 'K2D';
 }
