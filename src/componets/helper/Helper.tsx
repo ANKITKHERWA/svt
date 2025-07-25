@@ -9,11 +9,11 @@ import {
 } from './Icon'
 
 export const navber = [
-  { path: '#', pera: 'HOME' },
-  { path: '#', pera: 'ABOUT' },
-  { path: '#', pera: 'HOW IT WORKS' },
-  { path: '#', pera: 'FAQ' },
-  { path: '#', pera: 'DOCUMENTS' },
+  { path: '#Hero', pera: 'HOME' },
+  { path: '#Svt', pera: 'ABOUT' },
+  { path: '#Anew', pera: 'HOW IT WORKS' },
+  { path: '#Thereal', pera: 'FAQ' },
+  { path: '#Holdtrade', pera: 'DOCUMENTS' },
 ]
 
 export const socialData = [

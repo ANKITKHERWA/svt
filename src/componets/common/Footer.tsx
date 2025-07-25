@@ -23,7 +23,7 @@ function Footer() {
         <div className="flex justify-between sm:gap-8 gap-4 items-center sm:pt-8 pt-4 flex-wrap">
           <Para
             className="text-[#FFF] inter text-[14px] "
-            Para="Copyright © 2024 SVT. All rights reserved."
+            title="Copyright © 2024 SVT. All rights reserved."
           />
           <div className="flex sm:gap-8 gap-2 justify-between items-center flex-wrap">
             {footerLink.map((item, index) => (

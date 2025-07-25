@@ -5,9 +5,13 @@
 @import 'tailwindcss';
 
 @import 'tw-animate-css';
+@font-face {
+  font-family: 'k2d';
+  src: url('/assest/k2d/K2D-Bold.ttf');
+}
 
 .ff-k2d {
-  font-family: 'K2D';
+  font-family: 'k2d';
 }
 
 .ff-inter {
@@ -18,39 +22,6 @@
   font-family: 'Black Han Sans', sans-serif;
   font-weight: 400;
 }
-.under {
-  text-decoration: none;
-  position: relative;
-  padding-bottom: 8px;
-}
-
-.under::after {
-  content: '';
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  width: 0;
-  height: 3px;
-  background: linear-gradient(90deg, #009694 0%, #65f53d 97.01%);
-  transition: width 0.4s ease-in-out;
-}
-
-.under:hover::after {
-  width: 100%;
-}
-.bg-green-gradient {
-  background: linear-gradient(0deg, #003423 0%, rgba(0, 52, 35, 0) 82.5%);
-}
-.bg-green-gradient1 {
-  background: linear-gradient(11deg, rgba(0, 43, 24, 0) 31.36%, #01130d 68.13%);
-}
-.bg-green-gradient2 {
-  background: linear-gradient(357deg, #00251a 32.02%, rgba(0, 43, 24, 0) 89.1%);
-}
-.bg-green-gradient3 {
-  background: linear-gradient(359deg, rgba(0, 43, 24, 0) 55.9%, #003424 91.53%);
-}
-
 body {
-  font-family: 'Inter', 'K2D';
+  scroll-behavior: smooth;
 }

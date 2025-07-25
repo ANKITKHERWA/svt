@@ -9,9 +9,11 @@ import React from 'react'
 function Svt() {
   return (
     <>
-      <div className="bg-[url(/assest/png/f2.png)] bg-no-repeat bg-[length:100%_100%] ">
+      <div
+        className="bg-[url(/assest/png/f2.png)] bg-no-repeat bg-[length:100%_100%] overflow-hidden "
+        id="Svt">
         <div className="bg-[url(/assest/png/ff.png)] bg-no-repeat bg-[length:100%_100%]  lg:pt-20  sm:pt-15 pt-0">
-          <div className="max-w-[1775px] mx-auto px-4 md:px-6 lg:px-7 xl:px-25  flex flex-col justify-center items-center sm:gap-8  gap-4">
+          <div className="max-w-[1775px] mx-auto px-4 md:px-6 lg:px-7 xl:px-25  flex flex-col justify-center items-center sm:gap-8  gap-4 ">
             <div data-aos="zoom-in-up" data-aos-duration="1500">
               <Link href={'Home'}>
                 <Image
@@ -19,7 +21,7 @@ function Svt() {
                   src={'/assest/png/union.png'}
                   width={192}
                   height={69}
-                  alt="logo"
+                  alt="svt logo"
                 />
               </Link>
             </div>
@@ -28,12 +30,12 @@ function Svt() {
               data-aos="zoom-in-down"
               data-aos-duration="2000">
               <SubHeading
-                subheading="Be the first to play!"
+                title="Be the first to play!"
                 className="text-[#fff]  ff-black lg:text-5xl md:text-4xl sm:text-3xl text-2xl"
               />
               <Para
                 className=" text-[#B5BDC1] ff-inter sm:text-xl text-base  lg:max-w-[636px] w-full"
-                Para="We are in a pre-launch phase. Tokens are not deployed for trading. The only way to get player tokens before they are launched is to earn them by joining the community and finishing some quests."
+                title="We are in a pre-launch phase. Tokens are not deployed for trading. The only way to get player tokens before they are launched is to earn them by joining the community and finishing some quests."
               />
               <Para2
                 classSpan=" text-[#B5BDC1] ff-inter sm:text-xl text-base"

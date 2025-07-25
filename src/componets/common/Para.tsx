@@ -1,14 +1,15 @@
+import { title } from 'process'
 import { FunctionComponent } from 'react'
 
 interface ParaProps {
   className: string
-  Para: string
+  title: string
 }
 
-const Para: FunctionComponent<ParaProps> = ({ className, Para }) => {
+const Para: FunctionComponent<ParaProps> = ({ className, title }) => {
   return (
     <>
-      <p className={` ${className}`}>{Para}</p>
+      <p className={` ${className}`}>{title}</p>
     </>
   )
 }
