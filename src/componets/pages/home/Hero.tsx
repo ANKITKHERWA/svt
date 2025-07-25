@@ -28,7 +28,7 @@ function Hero() {
                 className="text-[#B5BDC1] lg:text-xl text-base  ff-inter leading-[160%] max-w-[505px]"
               />
               <div className="pb-5 lg:pb-0.5">
-                <button className="lg:px-6 px-3 py-2 lg:py-3 bg-[#41DF14] rounded-[6px] ff-k2d lg:text-base sm:text-sm text-xs font-semibold hover:text-[#fff]">
+                <button className="lg:px-6 px-3 py-2 lg:py-3 bg-[#41DF14] rounded-[6px] ff-k2d lg:text-base sm:text-sm text-xs font-semibold hover:text-[#fff] cursor-pointer  hover:drop-shadow-xl hover:drop-shadow-[#41DF14] duration-100">
                   JOIN THE COMMUNITY
                 </button>
               </div>

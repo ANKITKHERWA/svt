@@ -45,7 +45,7 @@ function Svt() {
               />
 
               <div>
-                <button className="lg:px-6 px-3 py-2 lg:py-3 lg:text-base sm:text-sm text-xs bg-[#41DF14] rounded-[6px] ff-k2d hover:text-[#fff]">
+                <button className="lg:px-6 px-3 py-2 lg:py-3 lg:text-base sm:text-sm text-xs bg-[#41DF14] rounded-[6px] ff-k2d hover:text-[#fff] cursor-pointer hover:drop-shadow-xl hover:drop-shadow-[#41DF14] duration-100">
                   JOIN OUR DISCORD CHANNEL
                 </button>
               </div>
